@@ -1,0 +1,155 @@
+<ImportExportXml version="9.1.0.8823" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>property_managment</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="property_managment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>0.0.0.3</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublisherorgf0fe3bc0</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Default Publisher for orgf0fe3bc0" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Default publisher for this organization" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>new</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="crfaf_biller" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_paybills" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_paycollections" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_payfacilities" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_payments" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_paymenttransaction" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_payservices" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_requestdocumentations" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_requestlists" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_serviceitems" behavior="0" />
+      <RootComponent type="1" schemaName="crfaf_servicelist" behavior="0" />
+      <RootComponent type="80" schemaName="crfaf_BackOffice" behavior="0" />
+      <RootComponent type="300" schemaName="new_changeappname_5bb58" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="crfaf_provider" displayName="Provider" solution="Active" />
+        <Dependent key="1" type="300" schemaName="new_changeappname_5bb58" displayName="Change app name" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="crfaf_collection" displayName="Collection " solution="Active" />
+        <Dependent key="1" type="300" schemaName="new_changeappname_5bb58" displayName="Change app name" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="crfaf_provider" displayName="Provider" solution="Active" />
+        <Dependent key="3" type="80" schemaName="crfaf_BackOffice" displayName="Back Office" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="crfaf_collection" displayName="Collection " solution="Active" />
+        <Dependent key="3" type="80" schemaName="crfaf_BackOffice" displayName="Back Office" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="crfaf_units" displayName="Units" solution="Active" />
+        <Dependent key="3" type="80" schemaName="crfaf_BackOffice" displayName="Back Office" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="crfaf_collectionlist" displayName="Collection List" solution="Active" />
+        <Dependent key="3" type="80" schemaName="crfaf_BackOffice" displayName="Back Office" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="9" schemaName="crfaf_paymentstatus" displayName="Payment Status" solution="Active" />
+        <Dependent key="7" type="2" schemaName="crfaf_paymentstatus" displayName="Payment Status" parentSchemaName="crfaf_payservices" parentDisplayName="Pay Services" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="9" schemaName="crfaf_ismandatory" displayName="Yes or No" solution="Active" />
+        <Dependent key="9" type="2" schemaName="crfaf_ismandatory" displayName="is Mandatory" parentSchemaName="crfaf_biller" parentDisplayName="Biller" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="9" schemaName="crfaf_paymentstatus" displayName="Payment Status" solution="Active" />
+        <Dependent key="10" type="2" schemaName="crfaf_paymentstatus" displayName="Payment Status" parentSchemaName="crfaf_paycollections" parentDisplayName="Pay Collections" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="9" schemaName="crfaf_ischargeable" displayName="is Chargeable" solution="Active" />
+        <Dependent key="12" type="2" schemaName="crfaf_ischargeable" displayName="is Chargeable" parentSchemaName="crfaf_servicelist" parentDisplayName="Service List" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="9" schemaName="crfaf_approval" displayName="Approval" solution="Active" />
+        <Dependent key="14" type="2" schemaName="crfaf_approval" displayName="Approval" parentSchemaName="crfaf_requestlists" parentDisplayName="Request Lists" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="9" schemaName="crfaf_requeststatus" displayName="Request Status" solution="Active" />
+        <Dependent key="16" type="2" schemaName="crfaf_requeststatus" displayName="Request Status" parentSchemaName="crfaf_requestlists" parentDisplayName="Request Lists" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="62" schemaName="crfaf_BackOffice" solution="Active" />
+        <Dependent key="3" type="80" schemaName="crfaf_BackOffice" displayName="Back Office" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="3" type="80" schemaName="crfaf_BackOffice" displayName="Back Office" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
